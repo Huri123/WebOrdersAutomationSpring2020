@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test suit">
+    <!--    this is a comment -->
+    <test name="Regression">
+        <classes>
+            <!--            class to include into set suite-->
+            <class name="com.weborders.tests.OrderTests"/>
+            <class name="com.weborders.tests.LoginTests"/>
+        </classes>
+    </test>
+</suite>
